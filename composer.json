@@ -1,5 +1,5 @@
 {
-    "name": "nick-scalewest/php-casbin",
+    "name": "casbin/casbin",
     "description": "a powerful and efficient open-source access control library for php projects.",
     "authors": [
         {
