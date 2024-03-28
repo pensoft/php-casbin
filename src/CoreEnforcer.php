@@ -405,6 +405,7 @@ class CoreEnforcer
             throw new CasbinException('filtered policies are not supported by this adapter');
         }
 
+        $this->model->sortPoliciesBySubjectHierarchy();
         $this->model->sortPoliciesByPriority();
         $this->initRmMap();
         $this->model->printPolicy();
@@ -467,7 +468,7 @@ class CoreEnforcer
 
         if (!is_null($this->adapter)){
             $this->adapter->savePolicy($this->model);
-        }        
+        }
 
         if ($this->watcher !== null && $this->autoNotifyWatcher) {
             if ($this->watcher instanceof WatcherEx) {
