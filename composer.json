@@ -1,5 +1,5 @@
 {
-    "name": "casbin/casbin",
+    "name": "nick-scalewest/php-casbin",
     "description": "a powerful and efficient open-source access control library for php projects.",
     "authors": [
         {
@@ -8,7 +8,7 @@
         }
     ],
     "license": "Apache-2.0",
-    "keywords": [        
+    "keywords": [
         "casbin",
         "rbac",
         "acl",
