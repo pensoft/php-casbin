@@ -1,5 +1,5 @@
 {
-    "name": "pensoft/casbin",
+    "name": "pensoft/php-casbin",
     "description": "a powerful and efficient open-source access control library for php projects.",
     "authors": [
         {
